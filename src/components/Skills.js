@@ -11,7 +11,7 @@ const Skills = () => {
       {/* container */}
       <div className="max-w-[1000px] mx-auto px-8 flex-col justify-center w-fulll ">
         <div>
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
+          <p className="text-4xl font-bold inline border-b-4 border-[#0abab5] ">
             Skills
           </p>
           <p className="py-4">Web development experience using</p>

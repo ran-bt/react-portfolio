@@ -47,7 +47,7 @@ const Navbar = () => {
 
       {/* Hamberger icon */}
       <div onClick={handleClick} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
+        {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
       {/* mobile menu */}
 
@@ -86,7 +86,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            offset={-100}
+            offset={100}
           >
             Skills
           </Link>

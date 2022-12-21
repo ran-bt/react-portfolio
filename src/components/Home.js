@@ -5,7 +5,7 @@ const Home = () => {
     <div name="home" className="bg-[#0a192f] w-full h-screen">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-pink-600">Hi, my name is </p>
+        <p className="text-[#0abab5]">Hi, my name is </p>
         <h1 className="text-4xl sm:text-7xl font-bold text-[#ccd6f6]">
           Inran Bent
         </h1>
@@ -23,7 +23,7 @@ const Home = () => {
             smooth
             duration={500}
             offset={-200}
-            className="group text-white border-2 px-6 py-3 w-fit my-2 flex items-center hover:bg-pink-600 "
+            className="group text-white border-2 px-6 py-3 w-fit my-2 flex items-center hover:bg-[#0abab5] "
           >
             View work
             <span className="group-hover:rotate-90 duration-300">
