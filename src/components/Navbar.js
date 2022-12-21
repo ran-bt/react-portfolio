@@ -86,7 +86,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            offset={-300}
+            offset={-100}
           >
             Skills
           </Link>
